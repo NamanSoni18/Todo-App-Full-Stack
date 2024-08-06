@@ -34,7 +34,7 @@ const TodoList = () => {
     return () => {
       controller.abort();
     };
-  }, [navigate, location.pathname]);
+  }, []);
 
   console.log(todo);
 
